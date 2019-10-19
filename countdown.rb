@@ -1,3 +1,5 @@
+require 'pry'
+
 def countdown(number)
   while number > 0
     puts "#{number} SECOND(S)!"
@@ -5,6 +7,7 @@ def countdown(number)
   end 
   puts "HAPPY NEW YEAR!"
 end
+binding.pry 
 
 def countdown_with_sleep(number)
   while number > 0
